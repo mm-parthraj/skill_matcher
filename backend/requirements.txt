@@ -1,0 +1,30 @@
+# Core FastAPI - Upgraded
+fastapi==0.115.12        # Latest stable (Dec 2025) [citation:1]
+typing-extensions==4.14.1
+uvicorn[standard]==0.34.0 # Upgraded from 0.24.0 [citation:2]
+sqlalchemy==2.0.39       # Latest 2.0.x [citation:3]
+pydantic==2.13.0b2       # Latest beta with Python 3.9 support [citation:4]
+passlib[bcrypt]==1.7.4   # Keep this - latest stable is still 1.7.4 [citation:5]
+python-jose[cryptography]==3.5.0  # Upgraded, requires Python >=3.9 [citation:6]
+python-multipart==0.0.22 # Latest with security fixes [citation:7]
+python-dotenv==1.2.2     # Latest with Python 3.9 support [citation:8]
+email-validator==2.2.0   # Upgraded
+
+# Data science - WITH LINUX COMPATIBILITY
+pandas==2.2.3            # **NOT 3.0** (pandas 3.0 requires Python 3.11+) [citation:10]
+openpyxl          # Latest
+numpy==2.2.4             # **YES - WORKS** with Python 3.9 on Linux
+scikit-learn==1.6.1      # Latest
+spacy==3.8.4             # **YES - WORKS** (newer than 3.7.2)
+sentence-transformers==3.4.1  # Latest
+
+# LangChain - Upgraded
+langchain==0.3.21        # Latest stable
+langchain-huggingface==0.1.2  # Latest
+huggingface_hub==0.29.3  # Latest
+
+langgraph==0.3.21    # If you need LangGraph features
+
+
+# Vercel
+mangum==0.19.0           # Latest
